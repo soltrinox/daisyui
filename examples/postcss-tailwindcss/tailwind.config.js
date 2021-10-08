@@ -3,9 +3,7 @@ module.exports = {
   purge: {
     content: ['./*.html'],
     options: {
-      safelist: [
-        /data-theme$/,
-      ]
+
     },
   },
   plugins: [

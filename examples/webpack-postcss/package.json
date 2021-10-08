@@ -12,6 +12,7 @@
     "style-loader": "latest",
     "tailwindcss": "latest",
     "webpack": "latest",
-    "webpack-cli": "latest"
+    "webpack-cli": "latest",
+    "webpack-dev-server": "^4.3.1"
   }
 }

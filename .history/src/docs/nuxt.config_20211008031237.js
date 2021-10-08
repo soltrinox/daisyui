@@ -129,7 +129,6 @@ export default {
     ...(process.env.NODE_ENV === 'production' ? ['~/assets/css/style'] : []),
     ...(process.env.NODE_ENV === 'production' ? [] : ['~/assets/css/fonts']),
     ...(process.env.NODE_ENV === 'production' ? [] : ['node_modules/tailwindcss/base']),
-    // ...(process.env.NODE_ENV === 'production' ? [] : ['node_modules/daisyui/dist/themes.css']),
     ...(process.env.NODE_ENV === 'production' ? [] : ['../../dist/themes.css']),
     ...(process.env.NODE_ENV === 'production' ? [] : [...getFiles('../base')]),
     ...(process.env.NODE_ENV === 'production' ? [] : ['node_modules/tailwindcss/components']),

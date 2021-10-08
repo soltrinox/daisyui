@@ -6,6 +6,6 @@ module.exports = {
     base: true,
   },
   plugins: [
-    require('../themes/postcss.config'),
+    require('../themes/postcss.configindex'),
   ],
 }

@@ -5,7 +5,8 @@ module.exports = {
     require('daisyui')
   ],
   daisyui:{
-    themes:[ // 👇 only these 4 themes will be included
+    themes: false,
+    old: [ // 👇 only these 4 themes will be included
       'dark', // default theme
       'forest',
       'garden',

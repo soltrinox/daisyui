@@ -21,7 +21,7 @@
       <span class="text-neutral-content text-opacity-20">// config (optional)</span>
       daisyui: {
         styled: true,
-        themes: true,
+        themes: false,
         base: true,
         utils: true,
         logs: true,
@@ -66,12 +66,7 @@
         <div class="shadow-lg mockup-code">
         <pre><code>
     daisyui: {
-      themes: [
-        'emerald', <span class="text-neutral-content text-opacity-20">// first one will be the default theme</span>
-        'dark',
-        'forest',
-        'synthwave'
-      ],
+      themes: false,
     },</code></pre>
         </div>
       </div>
@@ -85,7 +80,8 @@
         <div class="shadow-lg mockup-code">
         <pre><code>
     daisyui: {
-      themes: [<div class="bg-neutral-focus">      {
+      themes:false, 
+      older:[<div class="bg-neutral-focus">      {
           'mytheme': { <span class="text-neutral-content text-opacity-30">// custom theme</span>
             'primary' : '#ea5234',
             'primary-focus' : '#d43616',
